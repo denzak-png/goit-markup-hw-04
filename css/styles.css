@@ -161,7 +161,14 @@ a {
    text-align: center;
    padding-top: 188px;
    padding-bottom: 188px;
+   max-width: 1440;
+   margin: 0 auto;
+   background-image: linear-gradient(#2E2F42B2,#2E2F42B2), url(../images/office.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
+   
 
 
 
@@ -242,6 +249,18 @@ a {
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: #434455;
+}
+
+
+.icon-advantages-list {
+   width: 264px;
+   height: 112px;
+   border-radius: 4px;
+   background-color: #f4f4fd;
+   margin-bottom: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 
