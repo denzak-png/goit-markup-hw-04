@@ -167,8 +167,12 @@ a {
 .header-menu-link:hover,
 .header-menu-link:focus
 .contact-link:hover,
-.contact-link:focus
-.header-menu-link.current {
+.contact-link:focus {
+   color: #404bbf;
+}
+
+
+.header-menu-link.current{
    color: #404bbf;
 }
 
@@ -409,6 +413,7 @@ font-weight: 500;
 
 .our-portfolio-item {
 flex-basis:calc((100% - 48px) / 3);
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -423,7 +428,6 @@ flex-basis:calc((100% - 48px) / 3);
 .our-portfolio-item:hover {
    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
    background: #fff;
-   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
