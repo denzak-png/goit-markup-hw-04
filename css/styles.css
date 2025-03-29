@@ -411,8 +411,13 @@ font-weight: 500;
 flex-basis:calc((100% - 48px) / 3);
 }
 
+.our-portfolio-item-text {
+   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .our-portfolio-item:hover .our-portfolio-item-text {
    transform: translateY(0);
+   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .our-portfolio-item:hover {
