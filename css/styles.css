@@ -119,7 +119,7 @@ a {
 }
 
 
-.header-menu-link.current::before{
+.header-menu-link.current::after{
    content: "";
 
    position: absolute;
